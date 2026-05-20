@@ -1,0 +1,37 @@
+@import "@fontsource-variable/inter";
+@tailwind base;
+@tailwind components;
+
+@import "@bolteu/kalep-react/src/components/Chip/Chip.css";
+@import "@bolteu/kalep-react/src/components/Badge/Badge.css";
+
+@tailwind utilities;
+
+:root {
+  --safe-area-top: 0px;
+  --safe-area-bottom: 0px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Inter Variable", "Inter", ui-sans-serif, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "cv03" on, "cv04" on;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+#root {
+  min-height: 100dvh;
+}
