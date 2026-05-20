@@ -1,0 +1,10 @@
+{
+  "name": "Monitor - Task Pipeline",
+  "description": "Autonomous agent task pipeline dashboard for Bolt Food Malta",
+  "color": "#00A865",
+  "frame": "desktop",
+  "space": "malta-ops",
+  "presets": {
+    "default": { "description": "Active tasks view" }
+  }
+}
